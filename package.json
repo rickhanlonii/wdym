@@ -1,0 +1,22 @@
+{
+  "name": "wdym",
+  "version": "0.0.1",
+  "description": "wdym?",
+  "main": "index.js",
+  "repository": "git@github.com:rickhanlonii/wdym.git",
+  "author": "rickhanlonii <rickhanlonii@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "next start -p 8000",
+    "build": "next build",
+    "export": "next export",
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^5.0.1-canary.16",
+    "prettier": "^1.11.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
